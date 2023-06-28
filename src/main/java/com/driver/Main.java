@@ -9,5 +9,22 @@ public class Main {
 //        final commit
 //        agdf
     }
+    public static class A {
+        public A() {
 
-}
+        }
+
+        public String meth(){
+            return "Invoking method from class A";
+        }
+    }
+    public static class B extends A {
+        public B() {
+        }
+
+        public String meth() {
+            return "Method is overridden in Extendend class B";
+        }
+    }
+
+    }
